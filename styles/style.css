@@ -5,12 +5,12 @@
 }
 
 body {
-  background-color: white;
+  background-color: black;
   background-image: url(https://images.unsplash.com/photo-1480796927426-f609979314bd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-origin: cen;
+  background-origin: center;
   font-family: Arial, Helvetica, sans-serif;
   padding: 50px;
 }
@@ -44,12 +44,13 @@ body {
 }
 
 .buttons .button1 {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
   color: white;
   cursor: pointer;
+  transition-delay: 0.5s;
 }
 
 .buttons .button1:hover {
@@ -57,7 +58,7 @@ body {
 }
 
 .buttons .button2 {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 10px 20px;
   width: 100px;
   height: 40px;
@@ -66,6 +67,7 @@ body {
   text-decoration: none;
   color: white;
   cursor: pointer;
+  transition-delay: 0.5s;
 }
 
 .buttons .button2:hover {

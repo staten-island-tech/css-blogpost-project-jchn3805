@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  background-image: url(https://images.unsplash.com/photo-1480796927426-f609979314bd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-origin: cen;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
+}
+
+.container {
+  padding: 50px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.container h1 {
+  padding: 10px 0;
+}
+
+.container p {
+  padding: 40px 0;
+}
+
+.lists {
+  display: flex;
+  padding-bottom: 40px;
+  padding-left: 30px;
+}
+
+.lists ul {
+  padding-right: 30px;
+}
+
+.lists ol {
+  padding-left: 30px;
+}
+
+.buttons .button1 {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.buttons .button1:hover {
+  transform: scale(0.95);
+}
+
+.buttons .button2 {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  width: 100px;
+  height: 40px;
+  margin: 3px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.buttons .button2:hover {
+  transform: scale(0.95);
+}

@@ -8,7 +8,6 @@ body {
   background-color: white;
   background: url(https://images.unsplash.com/photo-1557683304-673a23048d34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80) no-repeat center center/cover;
   margin: 60px;
-  font-family: "Amatic SC", cursive;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,12 +19,13 @@ body {
   margin: 20px;
   position: relative;
   border-radius: 25px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
+  font-family: "Lato", sans-serif;
 }
 
 .blogpost1 h1 {
   text-align: center;
-  font-size: 80px;
+  font-size: 75px;
 }
 
 .blogpost1 img {
@@ -38,7 +38,7 @@ body {
 
 .blogpost1 p {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .blogpost2 {
@@ -46,11 +46,13 @@ body {
   margin: 20px;
   position: relative;
   border-radius: 25px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
+  font-family: "Lato", sans-serif;
 }
 
 .blogpost2 h1 {
   text-align: center;
+  font-size: 75px;
 }
 
 .blogpost2 img {
@@ -63,7 +65,7 @@ body {
 
 .blogpost2 p {
   text-align: center;
-  font: 16px;
+  font-size: 25px;
 }
 
 .blogpost3 {
@@ -71,11 +73,13 @@ body {
   margin: 20px;
   position: relative;
   border-radius: 25px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
+  font-family: "Lato", sans-serif;
 }
 
 .blogpost3 h1 {
   text-align: center;
+  font-size: 75px;
 }
 
 .blogpost3 img {
@@ -88,7 +92,7 @@ body {
 
 .blogpost3 p {
   text-align: center;
-  font: 16px;
+  font-size: 25px;
 }
 
 @media (max-width: 650px) {

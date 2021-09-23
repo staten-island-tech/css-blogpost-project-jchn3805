@@ -103,6 +103,12 @@ body {
     width: 330px;
     height: auto;
   }
+  .blogpost1 h1 {
+    font-size: 50px;
+  }
+  .blogpost1 p {
+    font-size: 20px;
+  }
   .blogpost2 {
     width: 450px;
   }
@@ -110,11 +116,23 @@ body {
     width: 330px;
     height: auto;
   }
+  .blogpost2 h1 {
+    font-size: 50px;
+  }
+  .blogpost2 p {
+    font-size: 20px;
+  }
   .blogpost3 {
     width: 450px;
   }
   .blogpost3 img {
     width: 330px;
     height: auto;
+  }
+  .blogpost3 h1 {
+    font-size: 50px;
+  }
+  .blogpost3 p {
+    font-size: 20px;
   }
 }
